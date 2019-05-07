@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+  
+<hibernate-configuration>
+    <session-factory>
+  
+        <!-- Connection settings -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/vava</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">veternik</property>
+        
+        <property name="connection.pool_size">1</property>
+  
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        
+        <property name="hbm2ddl.auto">update</property>
+  
+        <!-- Print executed SQL to stdout -->
+        <property name="show_sql">true</property>
+        
+        <property name="current_session_context_class">thread</property>
+  
+        <!-- Update database on startup -->
+        <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+        
+  
+        <!-- Annotated entity classes -->
+        <mapping class="model.Vonavka"/>
+        <mapping class="model.Znacka"/>
+        <mapping class="model.MojaVonavka"/>
+        <mapping class="model.MojWishList"/>
+        <mapping class="model.VonavkaObchodu"/>
+        
+    </session-factory>
+</hibernate-configuration>

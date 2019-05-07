@@ -1,0 +1,18 @@
+máj 07, 2019 3:44:17 PM com.MsgServer.ExampleServer vypisMojWishList
+INFO: Vytiahli sa informacie z mojho wishlistu z databazy.
+máj 07, 2019 3:44:17 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+INFO: Vytiahli sa informacie o vonavke z databazy.
+máj 07, 2019 3:44:18 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+INFO: Vytiahli sa informacie o znackach z databazy.
+máj 07, 2019 3:44:26 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+INFO: Vytiahli sa informacie o vonavke z databazy.
+máj 07, 2019 3:44:27 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+INFO: Vytiahli sa informacie o znackach z databazy.
+máj 07, 2019 3:44:31 PM com.MsgServer.ExampleServer vratVonavku
+INFO: Podarilo sa vytiahnut info o vonavke z tabulky vonavky.
+máj 07, 2019 3:44:31 PM com.MsgServer.ExampleServer vratVonavkyObchodu
+INFO: Podarilo sa vytiahnut info o cene danej vonavky z tabulky vonavka obchodu.
+máj 07, 2019 3:44:32 PM com.MsgServer.ExampleServer vratZnackuVonavky
+INFO: Podarilo sa vytiahnut znacku danej vonavky.
+máj 07, 2019 3:44:46 PM controller.Controller vygenerujpdf
+INFO: Bolo vygenerovane PDF.
