@@ -295,6 +295,7 @@ public class ExampleServer implements ExampleServerRemote, ExampleServerLocal {
 		}
     }
     
+    //Metoda, ktora ziska info z databazy o cene konkretnej vonavky
     @Override
     public List<VonavkaObchodu> vratVonavkyObchodu(int id_vonavky) {
     	LOGGER.entering(this.getClass().getName(), "vytiahni info o cene v jednotlivych obchodoch danej vonavky");
@@ -318,6 +319,7 @@ public class ExampleServer implements ExampleServerRemote, ExampleServerLocal {
 		}
     }
     
+    //Metoda, ktora zisti info o znacke konkretnej vonavky
     @Override
     public Znacka vratZnackuVonavky(int id_znacky) {
     	LOGGER.entering(this.getClass().getName(), "vytiahni info o znacke danej vonavky z databazy");

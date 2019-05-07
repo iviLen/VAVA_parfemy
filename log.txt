@@ -1,18 +1,56 @@
-máj 07, 2019 3:44:17 PM com.MsgServer.ExampleServer vypisMojWishList
-INFO: Vytiahli sa informacie z mojho wishlistu z databazy.
-máj 07, 2019 3:44:17 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+máj 07, 2019 4:52:13 PM com.MsgServer.ExampleServer vypisZoznamParfemov
 INFO: Vytiahli sa informacie o vonavke z databazy.
-máj 07, 2019 3:44:18 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+máj 07, 2019 4:52:13 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
 INFO: Vytiahli sa informacie o znackach z databazy.
-máj 07, 2019 3:44:26 PM com.MsgServer.ExampleServer vypisZoznamParfemov
-INFO: Vytiahli sa informacie o vonavke z databazy.
-máj 07, 2019 3:44:27 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
-INFO: Vytiahli sa informacie o znackach z databazy.
-máj 07, 2019 3:44:31 PM com.MsgServer.ExampleServer vratVonavku
+máj 07, 2019 4:52:18 PM com.MsgServer.ExampleServer vratVonavku
 INFO: Podarilo sa vytiahnut info o vonavke z tabulky vonavky.
-máj 07, 2019 3:44:31 PM com.MsgServer.ExampleServer vratVonavkyObchodu
+máj 07, 2019 4:52:19 PM com.MsgServer.ExampleServer vratVonavkyObchodu
 INFO: Podarilo sa vytiahnut info o cene danej vonavky z tabulky vonavka obchodu.
-máj 07, 2019 3:44:32 PM com.MsgServer.ExampleServer vratZnackuVonavky
+máj 07, 2019 4:52:19 PM com.MsgServer.ExampleServer vratZnackuVonavky
 INFO: Podarilo sa vytiahnut znacku danej vonavky.
-máj 07, 2019 3:44:46 PM controller.Controller vygenerujpdf
+máj 07, 2019 4:52:35 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+INFO: Vytiahli sa informacie o vonavke z databazy.
+máj 07, 2019 4:52:36 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+INFO: Vytiahli sa informacie o znackach z databazy.
+máj 07, 2019 4:52:41 PM com.MsgServer.ExampleServer vratVonavku
+INFO: Podarilo sa vytiahnut info o vonavke z tabulky vonavky.
+máj 07, 2019 4:52:42 PM com.MsgServer.ExampleServer vratVonavkyObchodu
+INFO: Podarilo sa vytiahnut info o cene danej vonavky z tabulky vonavka obchodu.
+máj 07, 2019 4:52:42 PM com.MsgServer.ExampleServer vratZnackuVonavky
+INFO: Podarilo sa vytiahnut znacku danej vonavky.
+máj 07, 2019 4:52:45 PM controller.Controller vygenerujpdf
 INFO: Bolo vygenerovane PDF.
+máj 07, 2019 4:52:52 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+INFO: Vytiahli sa informacie o vonavke z databazy.
+máj 07, 2019 4:52:52 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+INFO: Vytiahli sa informacie o znackach z databazy.
+máj 07, 2019 4:52:54 PM com.MsgServer.ExampleServer vratVonavku
+INFO: Podarilo sa vytiahnut info o vonavke z tabulky vonavky.
+máj 07, 2019 4:52:55 PM com.MsgServer.ExampleServer vratVonavkyObchodu
+INFO: Podarilo sa vytiahnut info o cene danej vonavky z tabulky vonavka obchodu.
+máj 07, 2019 4:52:55 PM com.MsgServer.ExampleServer vratZnackuVonavky
+INFO: Podarilo sa vytiahnut znacku danej vonavky.
+máj 07, 2019 4:53:17 PM controller.Controller vygenerujpdf
+INFO: Bolo vygenerovane PDF.
+máj 07, 2019 4:53:59 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+INFO: Vytiahli sa informacie o vonavke z databazy.
+máj 07, 2019 4:53:59 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+INFO: Vytiahli sa informacie o znackach z databazy.
+máj 07, 2019 4:54:10 PM com.MsgServer.ExampleServer vratVonavku
+INFO: Podarilo sa vytiahnut info o vonavke z tabulky vonavky.
+máj 07, 2019 4:54:11 PM com.MsgServer.ExampleServer vratVonavkyObchodu
+INFO: Podarilo sa vytiahnut info o cene danej vonavky z tabulky vonavka obchodu.
+máj 07, 2019 4:54:11 PM com.MsgServer.ExampleServer vratZnackuVonavky
+INFO: Podarilo sa vytiahnut znacku danej vonavky.
+máj 07, 2019 4:54:20 PM com.MsgServer.ExampleServer vypisMojWishList
+INFO: Vytiahli sa informacie z mojho wishlistu z databazy.
+máj 07, 2019 4:54:21 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+INFO: Vytiahli sa informacie o vonavke z databazy.
+máj 07, 2019 4:54:21 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+INFO: Vytiahli sa informacie o znackach z databazy.
+máj 07, 2019 4:54:27 PM com.MsgServer.ExampleServer vypisMojeParfemy
+INFO: Vytiahli sa informacie o mojich vonavkach z databazy.
+máj 07, 2019 4:54:28 PM com.MsgServer.ExampleServer vypisZoznamParfemov
+INFO: Vytiahli sa informacie o vonavke z databazy.
+máj 07, 2019 4:54:28 PM com.MsgServer.ExampleServer vypisZoznamParfemov_Znacky
+INFO: Vytiahli sa informacie o znackach z databazy.

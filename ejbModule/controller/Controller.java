@@ -84,11 +84,10 @@ public class Controller {
 			LOGGER.setLevel(Level.INFO);
 			
 		} catch (SecurityException e) {
-			System.out.println("Config failed!");
+			System.out.println("Konfiguracia zlyhala.");
 		} catch (IOException e) {
-			System.out.println("Config file path is wrong!");
+			System.out.println("Zla cesta k suboru properties - logovanie.");
 		}
-		System.out.println("Log level is: " + LOGGER.getLevel());
 		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -399,19 +398,15 @@ public class Controller {
 			Image notino = Image.getInstance("C:\\Users\\User\\Desktop\\MsgFromServerEJB\\images\\notino.png");
 			Image fann = Image.getInstance("C:\\Users\\User\\Desktop\\MsgFromServerEJB\\images\\fann.jpg");
 			Image mari = Image.getInstance("C:\\Users\\User\\Desktop\\MsgFromServerEJB\\images\\mari.png");
-			PdfPTable table =new PdfPTable(2);
-			table.setWidthPercentage(100);
-			table.setWidths(new int[] {1,2});
-			//table.addCell(createImageCell(obrazok));
 			obrazok.setAlignment(Element.ALIGN_RIGHT);
-			PdfPCell rightCell = new PdfPCell();
-			rightCell.addElement(obrazok);
 			
-			table.addCell(rightCell);
 			Font nadpis = new Font();
 			nadpis.setStyle(Font.BOLD);
 			nadpis.setSize(25);
-			dokument.add(new Paragraph("Detail parfému",nadpis));
+			if(this.getJazyk() == 1)
+				dokument.add(new Paragraph("Detail parfému",nadpis));
+			else
+				dokument.add(new Paragraph("Detail of perfume",nadpis));
 			dokument.add( Chunk.NEWLINE );
 			
 			BaseFont baseFont = BaseFont.createFont("c:\\WINDOWS\\fonts\\calibri.ttf", BaseFont.IDENTITY_H, true); 
@@ -427,7 +422,12 @@ public class Controller {
 			dokument.add(new Paragraph(labely2.get(2).getText() +" "+ labely.get(2).getText() ,font));
 			dokument.add(new Paragraph(labely2.get(3).getText() +" "+ labely.get(3).getText() ,font));
 			dokument.add( Chunk.NEWLINE );
-			dokument.add(new Paragraph("Ceny v jednotlivých obchodoch:",font));
+			
+			if(this.getJazyk() == 1)
+				dokument.add(new Paragraph("Ceny v jednotlivých obchodoch:",font));
+			else
+				dokument.add(new Paragraph("The prices in stores:",font));
+			
 			dokument.add(notino);
 			dokument.add(new Paragraph(labely.get(4).getText() ,font));
 			dokument.add( Chunk.NEWLINE );
